@@ -11,12 +11,20 @@ public class Main {
 //                System.out.println(i);
 //            }
 //        }
-       int sum = 0;
-        for (int i = 1; i < 100; i++) {
-            sum+=i;
-        }
-        System.out.println(sum);
-        
-    }
+//       int sum = 0;
+//        for (int i = 1; i < 100; i++) {
+//            sum+=i;
+//        }
+//        System.out.println(sum);
+
+//      int product = 1;
+//        for (int i = 1; i <=5; i++) {
+//            product*=i;
+//        }
+//        System.out.println(product);
+
+
+
+  }
 
 }
