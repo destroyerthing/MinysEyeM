@@ -23,10 +23,21 @@ public class Main {
 //        }
 //        System.out.println(product);
 
-        for (char c = 'A',d='a';c<='Z'&&d<='z';c++,d++){
-            System.out.print(c);
-            System.out.println(d);
-        }
+//        for (char c = 'A',d='a';c<='Z'&&d<='z';c++,d++){
+//            System.out.print(c);
+//            System.out.println(d);
+//        }
+
+//        String text = "Hello world";
+//        int vowelsCount = 0;
+//        String vowels = "AaOoEeIiUu";
+//        for (int i= 0;i<text.length();i++){
+//            char currentChar = text.charAt(i);
+//            if (vowels.contains(String.valueOf(currentChar))){
+//                vowelsCount++;
+//            }
+//        }
+//        System.out.println(vowelsCount);
 
   }
 
