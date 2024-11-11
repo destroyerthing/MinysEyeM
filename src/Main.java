@@ -23,7 +23,10 @@ public class Main {
 //        }
 //        System.out.println(product);
 
-
+        for (char c = 'A',d='a';c<='Z'&&d<='z';c++,d++){
+            System.out.print(c);
+            System.out.println(d);
+        }
 
   }
 
