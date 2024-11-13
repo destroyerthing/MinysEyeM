@@ -1,0 +1,363 @@
+//        for (int i = 0; i <=10; i++) {
+//            System.out.println(i);
+//        }
+//        System.out.println("2 in progress");
+//
+//        for (int i = 0; i <=20; i++) {
+//            if (i%2==0){
+//                System.out.println(i);
+//            }
+//        }
+//       int sum = 0;
+//        for (int i = 1; i < 100; i++) {
+//            sum+=i;
+//        }
+//        System.out.println(sum);
+
+//      int product = 1;
+//        for (int i = 1; i <=5; i++) {
+//            product*=i;
+//        }
+//        System.out.println(product);
+
+//        for (char c = 'A',d='a';c<='Z'&&d<='z';c++,d++){
+//            System.out.print(c);
+//            System.out.println(d);
+//        }
+
+//        String text = "Hello world";
+//        int vowelsCount = 0;
+//        String vowels = "AaOoEeIiUu";
+//        for (int i= 0;i<text.length();i++){
+//            char currentChar = text.charAt(i);
+//            if (vowels.contains(String.valueOf(currentChar))){
+//                vowelsCount++;
+//            }
+//        }
+//        System.out.println(vowelsCount);
+//
+//        int [] animalsLegs = {4,4,6,8};
+//        String [] animals = {"it","mushuk","tarakan","o'rgimchak"};
+//        int totalLegs =0;
+//        for (int i = 0; i < animalsLegs.length; i++) {
+//            totalLegs=totalLegs+animalsLegs[i];
+//            System.out.println(animals[i]+"ning "+ animalsLegs[i]+" oyog'i bor");
+//
+//        }
+//        System.out.println("Barcha hayvonlarning umumiy oyoqlari " +totalLegs);
+//
+//
+//        int larvaeCount =1;
+//        int days = 10;
+//        for (int i = 1; i <= days; i++) {
+//            larvaeCount*=2;
+//            System.out.println(i+larvaeCount);
+//        }
+
+//        int[] goals = {3,5,2,7,4};
+//        int totalGoals =0;
+//
+//        for (int i = 0; i < goals.length; i++) {
+//            totalGoals+=goals[i];
+//            System.out.println();
+//
+//        }
+
+//        ArrayList<String> fruits = new ArrayList<>();
+//        fruits.add("Olma");
+//        fruits.add("anor");
+//        fruits.add("behi");
+//        fruits.add("olcha");
+//        fruits.add("uzum");
+//        fruits.add("tarvuz");
+//        for(String fruit:fruits){
+//            System.out.println(fruit);
+//        }
+
+//        ArrayList<Integer> numbers = new ArrayList<>();
+//        numbers.add(1);
+//        numbers.add(2);
+//        numbers.add(3);
+//        numbers.add(4);
+//        numbers.add(5);
+//
+//        int sum =0;
+//        for(int number:numbers){
+//            sum+=number;
+//        }
+//        System.out.println(sum);
+
+
+//        ArrayList<Integer> players = new ArrayList<>();
+//
+//        for (int i = 1; i <=5 ; i++) {
+//            players.add(i);
+//        }
+//        for (int i = 0;i<players.size();i++){
+//            System.out.println(i+1+":"+players.get(i));
+//        }
+
+
+
+
+//        String org = "Mazda";
+//        String reversed = "";
+//        for (int i = org.length()-1; i >=0 ; i--) {
+//            reversed += org.charAt(i);
+//        }
+//        System.out.println(reversed);
+
+
+//                String text = "Hello";
+//                char target = 'l';
+//                int count = 0;
+//
+//                // Подсчитываем количество символов 'l' в строке
+//                for (int i = 0; i < text.length(); i++) {
+//                    if (text.charAt(i) == target) {
+//                        count++;
+//                    }
+//                }
+//
+//                System.out.println("Количество символов '" + target + "': " + count);
+//            }
+//        }
+//        String text = "Hamkorbank";
+//        char target = 'k';
+//        int count = 0;
+//        for (int i = 0; i < text.length(); i++) {
+//            if (text.charAt(i)==target){
+//                count++;
+//            }
+//        }
+//        System.out.println("simvollar soni "+target+":"+count);
+
+//        String text="uzbek";
+//        char target = 'e';
+//        int count = 0;
+//        for (int i = 0; i < text.length(); i++) {
+//            if (text.charAt(i)==target){
+//                count++;
+//            }
+//        }
+//        System.out.println(target+count);
+//        String original = "Hello";
+//
+//        // Переворачиваем строку с помощью цикла for и сразу выводим результат
+//        for (int i = original.length() - 1; i >= 0; i--) {
+//            System.out.print(original.charAt(i));  // Печатаем символы с конца
+//        }
+
+//        String org = "jesur";
+//        for (int i = org.length()-1; i>=0 ; i--) {
+//            System.out.println(org.charAt(i));
+//        }
+
+
+//                double[] numbers = {1.0, 2.0, 3.0, 4.0, 5.0};
+//
+//                for (int i = 0; i < numbers.length; i++) {
+//                    System.out.println(numbers[i]);
+//                }
+//            }
+
+//            double[] numbers = {1.0,2.0,3.0,4.0,5.0};
+//        for (int i = 0; i < numbers.length; i++) {
+//            System.out.println(numbers[i]);
+//        }
+
+//        for (int i = 10; i >= 1; i--) {
+//            System.out.println(i);
+//        }
+
+//        for (int i = 2; i <=13; i+=2) {
+//            System.out.println(i);
+//        }
+
+//        int summ = 0;
+//        for (int i = 1; i <=10; i++) {
+//            summ+=i;
+//        }
+//        System.out.println(summ);
+
+//        for (int i = 1; i <= 5; i++) {
+//            System.out.println(i * i);
+//        }
+
+//        for (int i = 1; i <=10; i++) {
+//            System.out.println(i*3);
+//        }
+
+//        for (int i = 1; i <= 10; i++) {
+//            if (i % 7 == 0) {
+//                System.out.println(i);
+//            }
+//        }
+//
+
+
+//        String[] animals = {"it","mushuk","quyon","tovuq"};
+//        for (int i = 0; i < animals.length; i++) {
+//            if (animals[i].equals("mushuk")){
+//                System.out.println("mushuk topildi");
+//            }
+//        }
+
+//        String[] animals = {"Eshshak","Ot","Poni","Sigir"};
+//        for (int i = 0; i < animals.length; i++) {
+//            System.out.println(animals[i].toUpperCase());
+//        }
+//
+
+//        String[] toys = {"Mushuk","Qo'g'irchoq","Quyoncha","Filcha"};
+//        int counts = 0;
+//        for (int i = 0; i < toys.length; i++) {
+//            counts+=i;
+//        }
+//        System.out.println(counts);
+
+//        for (int i = 1; i < 19; i+=2) {
+//            System.out.println(i);
+//        }
+
+//        int sum = 0;
+//        for (int i = 1; i <= 100; i++) {
+//            sum += i;
+//        }
+//        System.out.println("Сумма: " + sum);
+
+//        int sum = 0;
+//        for (int i = 1; i <=10; i++) {
+//            sum+=i;
+//        }
+//        System.out.println(sum);
+
+//        int num = 24;
+//        for (int i = 1; i <= num; i++) {
+//            if (num % i == 0) {
+//                System.out.println(i);
+//            }
+//        }
+
+//        int num =24;
+//        for (int i = 1; i <=num ; i++) {
+//            if (num%i==0){
+//                System.out.println(i);
+//            }
+//        }
+
+//        int num = 5;
+//        for (int i = 1; i <= 10; i++) {
+//            System.out.println(num + " x " + i + " = " + (num * i));
+//        }
+//        int numb = 5;
+//        for (int i = 1; i <=10 ; i++) {
+//            System.out.println(numb+"x"+i+"="+(numb*i));
+//        }
+//        int num = 6;
+//        int factorial = 1;
+//        for (int i = 1; i <= num; i++) {
+//            factorial *= i;
+//        }
+//        System.out.println("Факториал: " + factorial);
+
+//        int num = 6;
+//        int factorial = 1;
+//        for (int i = 0; i <= num; i++) {
+//            factorial *= i;
+//        }
+//        System.out.println(factorial);
+
+//        int[] arr = {1, 2, 3, 4, 5};
+//        int sum = 0;
+//        for (int i = 0; i < arr.length; i++) {
+//            sum += arr[i];
+//        }
+//        System.out.println("Сумма: " + sum);
+
+
+//        int count =0;
+//        for (int i = 1; i <=50 ; i++) {
+//            if (i%3==0){
+//                count++;
+//            }
+//        }
+//        System.out.println(count);
+
+//        int[] arr = {5, 12, 9, 20, 15};
+//        int max = arr[0];
+//        for (int i = 1; i < arr.length; i++) {
+//            if (arr[i] > max) {
+//                max = arr[i];
+//            }
+//        }
+//        System.out.println("Наибольшее число: " + max);
+
+
+//        int[] arr = {1, 2, 3, 4, 5};
+//        int sum = 0;
+//        for (int i = 0; i < arr.length; i++) {
+//            if (arr[i] % 2 == 0) {
+//                sum += arr[i];
+//            }
+//        }
+//        System.out.println("Сумма четных чисел: " + sum);
+
+//        int [] arr = {1,2,3,4,5};
+//        int sum =0;
+//        for (int i = 0; i < arr.length; i++) {
+//            if (arr[i]%2==0){
+//                sum+=arr[i];
+//            }
+//        }
+//        System.out.println(sum);
+
+//        int[] arr = {1,2,4,5,6,7};
+//        int count = 0;
+//        for (int i = 0; i <arr.length ; i++) {
+//            if (arr[i]%2==1){
+//                count+=arr[i];
+//            }
+//        }
+//        System.out.println(count);
+
+//        int sum = 0;
+//        for (int i = 1; i <= 50; i++) {
+//            if (i % 3 == 0) {
+//                sum += i;
+//            }
+//        }
+//        System.out.println("Сумма чисел, делящихся на 3: " + sum);
+
+//        int sum = 0;
+//        for (int i = 1; i <=50 ; i++) {
+//            if (i%3==0){
+//                sum+=i;
+//            }
+//        }
+//        System.out.println(sum);
+
+//        for (int i = 1; i <= 100; i++) {
+//            if (i % 7 == 0) {
+//                System.out.println(i);
+//            }
+//        }
+
+//        for (int i = 1; i <=100 ; i++) {
+//            if (i%7==0){
+//                System.out.println(i);
+//            }
+//        }
+
+
+//        int[] arr = {12,3,5,7,19};
+//        int maxSum = arr[0]+arr[1];
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = i+1; j < arr.length; j++) {
+//                int sum =arr[i]+arr[j];
+//                if (sum>maxSum){
+//                    maxSum=sum;
+//                }
+//            }
+//        }
+//        System.out.println(maxSum);
